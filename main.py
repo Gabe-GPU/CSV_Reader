@@ -54,8 +54,8 @@ def is_field_value_pair_exist(example_list, field, value):
 
 #declaring awhere the supporting files are located in your local computer
 
-csv_file_path = "C:\\PyPractice\\ExScript\\ExFile.csv"
-report_file_path = "C:\\PyPractice\\ExScript\\Report.txt"
+csv_file_path = "C:\\PyPractice\\CSV_Reader\\ExScript\\ExFile.csv"
+report_file_path = "C:\\PyPractice\\CSV_Reader\\ExScript\\Report.txt"
 example_list = read_file(csv_file_path)
 dictionary = process_data(example_list)
 write_report(dictionary, report_file_path)
